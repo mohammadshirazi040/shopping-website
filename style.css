@@ -1,0 +1,134 @@
+:root {
+  font-family: "Quicksand", sans-serif;
+  --body-background-color: #f5f5f5;
+  --background-product-color: #fff;
+  --background-button-color: #485fb9;
+  --text-heading-color: black;
+  --text-regular-color: #7e7e7e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-background-color);
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  flex-wrap: wrap;
+}
+.container {
+  position: relative;
+  width: 30%;
+  height: 100vh;
+  background-color: var(--background-product-color);
+  border-radius: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.schuhe {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.container h2 {
+  padding: 1rem;
+  color: var(--text-heading-color);
+}
+
+.container p {
+  padding: 0rem 1rem;
+  color: var(--text-regular-color);
+}
+
+.kasten {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--body-background-color);
+  width: auto;
+  height: 36vh;
+  border-radius: 0.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.price {
+  width: 90%;
+  text-align: center;
+  background-color: var(--background-product-color);
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.select {
+  position: absolute;
+  left: 2.5rem;
+  bottom: 9rem;
+}
+
+.s1 {
+  margin-right: 8rem;
+  padding-right: 1.5rem;
+}
+
+.s2 {
+  padding-right: 1.5rem;
+}
+
+.span1 {
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.kreis {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  clip-path: circle(50%);
+  background-color: green;
+  left: 3.2rem;
+  top: 3.3rem;
+}
+
+.kreis2 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  clip-path: circle(50%);
+  background-color: rgb(21, 0, 128);
+  left: 5.2rem;
+  top: 3.3rem;
+}
+
+.kreis3 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  clip-path: circle(50%);
+  background-color: rgb(128, 0, 124);
+  left: 7.2rem;
+  top: 3.3rem;
+}
+
+.btn {
+  position: absolute;
+  top: 100px;
+  left: 0.5rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--background-button-color);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--background-product-color);
+}
